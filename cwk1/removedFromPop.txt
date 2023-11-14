@@ -1,0 +1,15 @@
+Extracted:,"United Nations High Commissioner for Refugees"
+"Date extracted:","12/11/2023 15:44 UTC"
+"Last updated:","24 October 2023"
+"Some data presented may differ from statistics published previously due to retroactive changes or the inclusion of previously unavailable data."
+
+"Data table contains the following:","Population figures"
+"Content type","End year stock population totals"
+"Data quick link",https://www.unhcr.org/refugee-statistics/download/?url=bEW3lf
+"Data definitions",https://www.unhcr.org/refugee-statistics/methodology/
+"Usage licence",https://creativecommons.org/licenses/by/4.0/
+"Population types included","REF,ROC,ASY,IDP,IOC,OIP,OOC,STA"
+Years:,2020
+Origin:,all
+"Country of asylum:"
+Year,"Country of origin","Country of origin (ISO)","Country of asylum","Country of asylum (ISO)","Refugees under UNHCR's mandate"
