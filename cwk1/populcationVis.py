@@ -1,13 +1,21 @@
 import csv
 import matplotlib.pyplot as plt
 
-# data = []
+# dataList = []
 
-# with open("/home/nano/Year3/infoVisCode/cwk1/population.csv", "r") as data_file:
+# with open("/home/nano/Year3/infoVisCode/cwk1/new_population.csv", "r") as data_file:
 #     reader = csv.reader(data_file)
 
 #     for row in reader:
-#         data.append([int(row[2]), row[0]])
+#         dataList.append([int(row[5]), row[1], row[3]])
+
+# dataList.sort(reverse=True)
+
+# count = 0
+
+# while count < 20:
+#     print(dataList[count])
+#     count += 1
 
 # data.sort(reverse=True)
 
@@ -40,9 +48,10 @@ xLabels = [0, 1000000, 2000000, 3000000, 4000000, 5000000, 6000000, 7000000]
 
 plt.barh(names, values)
 
+
+plt.title("Top 10 refugee populations in 2020 by country of origin")
 plt.xlabel("Population of Refugees")
 plt.ylabel("Country of origin")
 plt.xticks(xLabels, xTicks)
-
 
 plt.savefig("population.png", bbox_inches="tight")
